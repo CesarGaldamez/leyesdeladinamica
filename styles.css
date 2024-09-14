@@ -1,0 +1,69 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+}
+
+/* Menú lateral */
+.sidebar {
+    background-color: #0c255e; /* Azul oscuro */
+    color: white;
+    min-width: 200px;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    background-color: #1a3a73; /* Azul más oscuro */
+    border-radius: 5px;
+}
+
+/* Contenido principal */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    max-width: 900px;
+}
+
+.content h1, .content h2 {
+    color: #0c255e;
+    text-align: center;
+}
+
+.content img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #0c255e;
+}
